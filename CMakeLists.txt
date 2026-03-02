@@ -15,6 +15,7 @@ add_executable (gameEngine "external/glad/include/glad/glad.h"
 target_include_directories(gameEngine PRIVATE 
 			${CMAKE_SOURCE_DIR}/external/glad/include
 			${CMAKE_SOURCE_DIR}/external/glfw/include
+			${CMAKE_SOURCE_DIR}/res/shaders
 			)
 
 target_link_directories(gameEngine PRIVATE
