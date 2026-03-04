@@ -1,5 +1,5 @@
 # gameEngine
-Grame engine using OpenGL - learning
+Game engine using OpenGL - learning
 
 # Introduction
 
