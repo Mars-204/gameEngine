@@ -10,7 +10,7 @@ add_executable (gameEngine "external/glad/include/glad/glad.h"
 			"external/glad/include/KHR/khrplatform.h" "external/glad/src/glad.c"
 			"external/glfw/include/GLFW/glfw3.h" "external/glfw/include/GLFW/glfw3native.h"
 			"src/main.cpp" "src/Renderer.h" "src/Renderer.cpp" "src/VertexBuffer.h" "src/VertexBuffer.cpp"
-			"src/IndexBuffer.h" "src/IndexBuffer.cpp" "src/VertexArray.h"  "src/VertexArray.cpp" "src/VertexBufferLayout.h" "src/Shader.h" "src/Shader.cpp")
+			"src/IndexBuffer.h" "src/IndexBuffer.cpp" "src/VertexArray.h"  "src/VertexArray.cpp" "src/VertexBufferLayout.h" "src/Shader.h" "src/Shader.cpp" "src/vendor/stb_image/stb_image.h" "src/vendor/stb_image/stb_image.cpp" "src/Texture.h" "src/Texture.cpp")
 
 # TODO: Add tests and install targets if needed.
 target_include_directories(gameEngine PRIVATE 
